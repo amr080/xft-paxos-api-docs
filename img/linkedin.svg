@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/social/linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+        <path d="M6.4756173,22 L2.33063336,22 L2.33063336,8.64067812 L6.4756173,8.64067812 L6.4756173,22 Z M4.40403035,6.81452941 C3.07546344,6.81452941 2,5.73570252 2,4.40666032 C2.00030167,3.07882689 3.07546344,2 4.40403035,2 C5.72897718,2 6.80594899,3.07882689 6.80594899,4.40666032 C6.80594899,5.73600471 5.72867551,6.81452941 4.40403035,6.81452941 Z M22,22 L17.8583345,22 L17.8583345,15.5031655 C17.8583345,13.953825 17.8296756,11.9611683 15.7037875,11.9611683 C13.5480338,11.9611683 13.2164955,13.6486107 13.2164955,15.3910521 L13.2164955,21.9996978 L9.0751316,21.9996978 L9.0751316,8.64067812 L13.0505754,8.64067812 L13.0505754,10.4662224 L13.1063849,10.4662224 C13.6599544,9.41580164 15.0114485,8.30856867 17.028131,8.30856867 C21.2253043,8.30856867 22,11.0754423 22,14.6724385 L22,22 Z" id="path-3"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-1026.000000, -144.000000)">
+            <g transform="translate(150.000000, 21.000000)" id="Social-2">
+                <g transform="translate(780.000000, 0.000000)">
+                    <g id="Social">
+                        <g id="Icon-/-Social-/-Linkedin" transform="translate(96.000000, 123.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Container" fill-rule="nonzero"></g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Linkedin"></g>
+                            <g id="Style-/-Color-/-Black" mask="url(#mask-4)" fill="#000000" fill-rule="evenodd">
+                                <rect id="Container" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

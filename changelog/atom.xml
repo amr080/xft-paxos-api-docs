@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.paxos.com/changelog</id>
+    <title>Changelog</title>
+    <updated>2024-10-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.paxos.com/changelog"/>
+    <subtitle>Keep up to date with Paxos Platform changes.</subtitle>
+    <icon>https://docs.paxos.com/img/favicon.ico</icon>
+    <rights>© 2024 Paxos Trust Company, LLC All Rights Reserved. NMLS #1766787.</rights>
+    <entry>
+        <title type="html"><![CDATA[October 2, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/10/02/</id>
+        <link href="https://docs.paxos.com/changelog/2024/10/02/"/>
+        <updated>2024-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- v2 API: Add optional cryptotxhashes filter to the List Transfers endpoint.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>v2 API</strong>: Add optional <code>crypto_tx_hashes</code> filter to the List Transfers endpoint. </li><li><strong>v2 API</strong>: Add the following document types to Identity Documents APIs: <code>AML_DOCUMENTS</code>, <code>FUND_STRUCTURE_CHART</code>, <code>FUND_MANAGER_REGISTRATION</code>, <code>MEMORANDUM_OF_ASSOCIATION</code>, <code>ORGANIZATIONAL_CHART</code>, <code>FOUNDATION_BY_LAWS</code>, <code>APPOINTMENT_OF_GUARDIAN_EVIDENCE</code>, <code>LEGAL_DOMICILE_OF_BENEFICIAL_OWNERS</code>, <code>GOVERNING_BODY_MEMBER_NAMES</code>. </li></ul>]]></content>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[September 25, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/09/25/</id>
+        <link href="https://docs.paxos.com/changelog/2024/09/25/"/>
+        <updated>2024-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- v2 API: Add three new optional fields to the customerduediligence object of the Identity API (Create Identity and Update Identity).]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>v2 API</strong>: Add three new optional fields to the <code>customer_due_diligence</code> object of the Identity API (Create Identity and Update Identity). </li><li><strong>v2 API</strong>: Add new ENUM value <code>GOVERNMENT_BENEFITS</code> to the <code>customer_due_diligence</code> object field <code>source_of_funds</code> in the Identity API (Create Identity and Update Identity). </li></ul>]]></content>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[September 19, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/09/19/</id>
+        <link href="https://docs.paxos.com/changelog/2024/09/19/"/>
+        <updated>2024-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- v2 API: Add is_merchant field to the Identity API (Update Identity, Get Identity, List Identities).]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>v2 API</strong>: Add <code>is_merchant</code> field to the Identity API (Update Identity, Get Identity, List Identities). </li></ul>]]></content>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[September 16, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/09/16/</id>
+        <link href="https://docs.paxos.com/changelog/2024/09/16/"/>
+        <updated>2024-09-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- v2 API: Updated rate limit on Identity API from 50 to 10 requests per second.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>v2 API</strong>: Updated rate limit on Identity API from 50 to 10 requests per second. </li></ul>]]></content>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[August 27, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/08/27/</id>
+        <link href="https://docs.paxos.com/changelog/2024/08/27/"/>
+        <updated>2024-08-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Docs, v2 API: Add new Settlement APIs which allow for atomic one-way or two-way transfers across Paxos accounts. Also added Settlement integration guide.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>Docs, v2 API</strong>: Add new <a href="/api/v2#tag/Settlement">Settlement APIs</a> which allow for atomic one-way or two-way transfers across Paxos accounts. Also added Settlement integration <a href="/settlements">guide</a>. </li></ul>]]></content>
+        <category label="Docs" term="Docs"/>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[July 24, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/07/24/</id>
+        <link href="https://docs.paxos.com/changelog/2024/07/24/"/>
+        <updated>2024-07-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- FIX: Enforce a maximum of 150 messages per second, per session.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>FIX</strong>: Enforce a maximum of 150 messages per second, per session. </li></ul>]]></content>
+        <category label="FIX" term="FIX"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[June 27, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/06/27/</id>
+        <link href="https://docs.paxos.com/changelog/2024/06/27/"/>
+        <updated>2024-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Docs: Add stablecoin payments documentation.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>Docs</strong>: Add <a href="/payments">stablecoin payments</a> documentation. </li></ul>]]></content>
+        <category label="Docs" term="Docs"/>
+        <category label="Payments" term="Payments"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[June 26, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/06/26/</id>
+        <link href="https://docs.paxos.com/changelog/2024/06/26/"/>
+        <updated>2024-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- v2 API: All metadata specified when creating a crypto deposit address is now inherited by deposit activities.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>v2 API</strong>: All <code>metadata</code> specified when creating a crypto deposit address is now inherited by deposit activities. </li></ul>]]></content>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[June 13, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/06/13/</id>
+        <link href="https://docs.paxos.com/changelog/2024/06/13/"/>
+        <updated>2024-06-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Funding: Paxos is upgrading its wallet infrastructure, impacting customers' crypto deposit addresses for BTC, ETH, BCH, LTC and all ERC20 tokens. This planned change is part of our commitment to continuous product and security improvements. Users will be required to retrieve the new crypto deposit address via the UI or CreateDepositAddress API no earlier than February 15, 2024, and no later than June 13, 2024. Old deposit addresses will come with a deprecated warning until June 13, 2024. After this date they will no longer be supported.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>Funding</strong>: Paxos is upgrading its wallet infrastructure, impacting customers' crypto deposit addresses for BTC, ETH, BCH, LTC and all ERC20 tokens. This planned change is part of our commitment to continuous product and security improvements. Users will be required to retrieve the new crypto deposit address via the UI or <code>CreateDepositAddress</code> API no earlier than February 15, 2024, and no later than <strong>June 13, 2024</strong>. Old deposit addresses will come with a deprecated warning until <strong>June 13, 2024</strong>. After this date they will no longer be supported. </li></ul>]]></content>
+        <category label="Funding" term="Funding"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[May 29, 2024]]></title>
+        <id>https://docs.paxos.com/changelog/2024/05/29/</id>
+        <link href="https://docs.paxos.com/changelog/2024/05/29/"/>
+        <updated>2024-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Docs, v2 API: Enable PYUSD on Solana. Update PYUSD docs with mainnet and testnet addresses.]]></summary>
+        <content type="html"><![CDATA[<ul><li><strong>Docs, v2 API</strong>: Enable PYUSD on Solana. Update PYUSD docs with mainnet and testnet addresses. </li></ul>]]></content>
+        <category label="Stablecoin" term="Stablecoin"/>
+        <category label="v2 API" term="v2 API"/>
+    </entry>
+</feed>
